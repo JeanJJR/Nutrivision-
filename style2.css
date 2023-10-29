@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Estilos iniciales */
+/* Agrega tus estilos CSS anteriores aquí */
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en la primera fila */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    text-align: center;
+    margin: 10px;
+}
+
+/* Establecer un diseño de 2 columnas en la segunda fila */
+.team .member:nth-child(n+4) {
+    grid-column: span 2;
+}
+
+.team .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Resto de tus estilos */
+
+
+/* Estilos para los botones de alternar entre descripción y misión/visión */
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.btn-1 {
+    background-color: #ff9f0d;
+    padding: 13px 30px;
+    border-radius: 25px;
+    color: #ffffff;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-1:hover {
+    background-color: #ee9003;
+}
+
+#show-project, #show-mission-vision {
+    display: inline-block;
+}
+
+#vision {
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    width: 450px;
+    z-index: -1;
+    right: 0;
+}
+
+
+/* Estilos para el botón de alternar Misión y Visión */
+#toggle-mission-vision {
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Centra horizontalmente el texto en el botón */
+    display: block; /* Asegura que el botón ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra horizontalmente el botón en su contenedor */
+}
+
+#toggle-mission-vision:hover {
+    background-color: #ee9003;
+}
+
+
+
+p {
+    text-align: center; /* Centra el texto en párrafos */
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 0;
+}

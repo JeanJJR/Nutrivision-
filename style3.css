@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Estilos para las secciones de contenido */
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    max-height: 100px;
+    height: auto;
+}
+
+/* Contenedor que envuelve a Plan Premium y Usuario */
+.user-premium-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Estilos para el apartado del Usuario (Izquierda) */
+.user-profile {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    flex: 1; /* Toma el 50% del espacio en el contenedor */
+}
+
+.user-profile h2 {
+    margin-bottom: 10px;
+}
+
+.user-profile p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el apartado del Plan Premium (Derecha) */
+.premium-plan {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    flex: 1; /* Toma el 50% del espacio en el contenedor */
+}
+
+.premium-plan h2 {
+    margin-bottom: 10px;
+}
+
+.premium-plan p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los elementos individuales (producto, plan, receta, alimento) */
+.product, .meal-plan, .recipe, .healthy-food {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.product h3, .meal-plan h3, .recipe h3, .healthy-food h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p, .meal-plan p, .recipe p, .healthy-food p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Efecto de zoom en hover */
+.product:hover, .meal-plan:hover, .recipe:hover, .healthy-food:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para los botones personalizados */
+.custom-button {
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.custom-button:hover {
+    background-color: #ee9003;
+}
+
+/* Estilo para la imagen de fondo en la parte superior derecha */
+.bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* Estilos para la sección de Mi Salud */
+.my-health {
+    margin-bottom: 30px;
+}
+
+.health-info {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.health-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.health-info p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+/* Efecto de zoom en hover */
+.health-info:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 0;
+}
