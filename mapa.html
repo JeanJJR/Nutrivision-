@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Tiendas</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <header>
+        <h1>Buscador de Tiendas</h1>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div id="map-container"></div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Buscar tienda...">
+                <button id="search-button">Buscar</button>
+            </div>
+        </section>
+
+
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+            var setting = {"query":"UPC - Campus San Isidro, Avenida General Salaverry, San Isidro, Provincia de Lima, Perú","width":800,"height":600,"satellite":false,"zoom":12,"placeId":"ChIJk4GoDVbIBZERDNk9QgC1bck","cid":"0xc96db500423dd90c","coords":[-12.0874512,-77.0499421],"lang":"es","queryString":"UPC - Campus San Isidro, Avenida General Salaverry, San Isidro, Provincia de Lima, Perú","centerCoord":[-12.0874512,-77.0499421],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1021571"};
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=1021571';
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+          })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+
+
+
+        <section class="store-products">
+            <h2>Tienda: [Nombre de la Tienda]</h2>
+            <div class="product">
+                <img src="images/ensalada-1.png" alt="Producto 1">
+                <h3>Nombre del Producto 1</h3>
+                <p>Precio: s/.10.00</p>
+                <p>Cantidad disponible: 100</p>
+            </div>
+            <!-- Repite esto para más productos de la tienda -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor © 2023 - Buscador de Tiendas</p>
+    </footer>
+</body>
+</html>

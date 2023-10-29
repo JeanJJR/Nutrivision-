@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilos para los blogs */
+.blog-post {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex; /* Para centrar verticalmente */
+    flex-direction: column; /* Aplicar flexbox en columna para centrar verticalmente */
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+.blog-post img {
+    max-width: 100%;
+    max-height: 100px; /* Limita la altura de las imágenes a 100px */
+    width: auto;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.blog-post p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+
+/* Estilos para los botones personalizados */
+.custom-button {
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 0;
+}
