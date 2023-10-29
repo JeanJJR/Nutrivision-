@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilos para el área de información de dinero */
+.money-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.money {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.money h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff9f0d;
+}
+
+/* Estilos para el historial de compras y ofertas */
+.purchase-history, .offers {
+    margin-bottom: 30px;
+}
+
+.purchase-item, .offer-item {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.purchase-item img, .offer-item img {
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+}
+
+.purchase-item h3, .offer-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.purchase-item p, .offer-item p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #ff9f0d;
+    color: #fff;
+    padding: 10px 0;
+}
