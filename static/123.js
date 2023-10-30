@@ -17,3 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
         registerForm.style.display = "block";
     });
 });
+
